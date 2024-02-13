@@ -1,0 +1,7 @@
+tail -f /var/log/chainflip-node.log
+
+sudo systemctl start chainflip-engine
+
+sudo systemctl status chainflip-engine
+
+sudo systemctl enable chainflip-node
